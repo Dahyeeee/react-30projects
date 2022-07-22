@@ -1,0 +1,43 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.initial {
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.addingBox {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 2rem;
+}
